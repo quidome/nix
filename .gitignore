@@ -1,2 +1,7 @@
 .gitsecret/keys/random_seed
 !*.secret
+nixos/hv01/hardware-configuration.nix
+nixos/hv01/zfs-configuration.nix
+nixos/hv03/hardware-configuration.nix
+nixos/hv03/nfs.nix
+nixos/hv03/zfs-configuration.nix
