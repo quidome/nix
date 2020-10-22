@@ -31,7 +31,7 @@
   networking.vlans.vlan40.interface = "enp2s0f0";
   networking.vlans.vlan40.id = 40;
 
-  # static ip config 
+  # static ip config
   networking.interfaces.enp2s0f0.ipv4.addresses = [ { address = "172.16.10.64"; prefixLength = 24; } ];
   networking.interfaces.vlan40.ipv4.addresses = [ { address = "172.16.40.64"; prefixLength = 24; } ];
 
@@ -90,7 +90,7 @@ services.nfs.server.enable = true;
       isSystemUser = true;
       uid = 1001;
       group = "dockergroup";
-  }
+  };
 
   # auto upgrade system
   system.autoUpgrade.enable = true;

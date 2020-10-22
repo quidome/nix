@@ -92,7 +92,7 @@
       isSystemUser = true;
       uid = 1001;
       group = "dockergroup";
-  }
+  };
 
   # auto upgrade system
   system.autoUpgrade.enable = true;
