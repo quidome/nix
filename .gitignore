@@ -5,3 +5,5 @@ nixos/hv01/zfs-configuration.nix
 nixos/hv03/hardware-configuration.nix
 nixos/hv03/nfs.nix
 nixos/hv03/zfs-configuration.nix
+nixos/hv03/secrets.nix
+nixos/hv01/secrets.nix
