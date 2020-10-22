@@ -18,4 +18,4 @@ Home manager config can be found under home. Link it to ~/.config/nixpkgs
 $ ln -s $(pwd)/nixpkgs ~/.config/nixpkgs
 ```
 
-Check out [https://github.com/nix-community/home-manager] on how to install home manager.
+Check out https://github.com/nix-community/home-manager on how to install home manager.
